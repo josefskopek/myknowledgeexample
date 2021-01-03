@@ -14,20 +14,14 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <?php
   }
-?>
 
-
-<?php
   function ends() {
 ?>
     </body>
     </html>              
 <?php
   }
-?>
 
-
-<?php
   function modal_ares_ic() {
 ?>
 <!-- The Modal with ares_ic_data-->
@@ -57,10 +51,7 @@
     </div>
 <?php
   }
-?>
 
-
-<?php
   function heading_navbar() {        
     if (basename($_SERVER['PHP_SELF']) == 'index.php') {
       $name1='nav-link disabled';
